@@ -1,0 +1,15 @@
+/* Retirer les marges et désactiver le défilement */
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Couleur de fond du jeu */
+}
+
+/* Style spécifique pour le canvas */
+canvas {
+    display: block;
+    border: 2px solid white; /* Bordure pour bien délimiter le champ */
+}
