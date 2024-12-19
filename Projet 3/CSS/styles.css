@@ -1,0 +1,147 @@
+h1 {
+    text-align: center;
+    color: black;
+    padding: 2em;
+    padding-top: 0;
+    padding-bottom: 0 auto;
+    box-sizing: content-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+body {
+
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(222, 216, 222) 3%, rgb(169, 174, 179)35%,
+            rgb(218, 236, 235)68%, rgb(254, 213, 213)98%);
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    backdrop-filter: blur(80px);
+    padding: 50px;
+    box-shadow: 0 40px 30px rgba(2, 0, 0, 0.608);
+    width: 400px;
+    border: 1px solid #000000;
+    border-radius: 1em;
+    padding-inline-end: 20px;
+    align-items: center;
+    position: relative;
+    top: 110px;
+    left: 20px;
+
+    height: 550px;
+
+}
+
+form {
+    font-family: Impact, 'Arial Narrow', sans-serif;
+    margin: 0 auto;
+    width: 332.48px;
+    padding: 1em;
+    border: 1px solid #000000;
+    border-radius: 5em;
+}
+
+ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: em;
+
+
+}
+
+label {
+    display: inline-block;
+    padding: 10px;
+
+
+
+
+
+
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #7e6969;
+
+}
+
+
+input:focus,
+textarea:focus {
+
+    background-color: rgb(196, 196, 190)
+}
+
+textarea {
+    vertical-align: top;
+    height: 6em;
+    resize: vertical;
+    padding-top: 10px;
+    padding-left: 10px;
+
+
+
+}
+
+.button {
+    padding-left: 90px;
+
+}
+
+
+button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 1em;
+
+}
+
+button:hover {
+    background-color: rgba(193, 199, 186, 0.75);
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}

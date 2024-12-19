@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+
+
+<body class="body3">
+<!--lien hypertext sur un "H1" pour retourner au formulaire-->
+    <h1><a href="formulaire.html">Le formulaire</a></h1>
+    <h2>Se connecter</h2>
+    <div class="login">
+        <form id="form2" method="post" action="#">
+
+            <!--Pour se connecter au site--> 
+            <input type="text" placeholder="Identifiant" id="username" required>
+            <input type="password" placeholder="Mots de Passe" id="password" required>
+            <input type="submit" value="connexion">
+            <br>
+            <a id="mp" href="/motdepasse.html" class="forgot">Mot de Passe oublié</a>
+            <!--lien quand on a perdu son mot de passe (lien hypertext)-->
+        </form>
+    </div>
+    <style>
+        .login {
+            font: 1em sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+
+
+        }
+
+        .forgot {
+            color: black;
+            padding: 0 auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+        }
+
+
+
+        h1 {
+            text-align: center;
+            font-size: 1em;
+
+
+        }
+
+        h1:hover {
+            color: red;
+        }
+
+        .forgot:hover {
+            color: red;
+        }
+
+        .login:hover {
+            color: gray;
+
+        }
+
+        a:hover {
+            color: red;
+
+        }
+
+        a {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-decoration: none;
+        }
+        
+
+        #mp {
+            text-decoration: underline;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .body3 {
+            margin: auto;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            overflow: auto;
+            background: linear-gradient(315deg, rgb(222, 216, 222) 3%, rgb(169, 174, 179)35%,
+            rgb(218, 236, 235)68%, rgb(254, 213, 213)98%);
+            background-size: 400% 400%;
+            background-attachment: fixed;
+            backdrop-filter: blur(80px);
+            padding: 70px;
+            box-shadow: 0 40px 30px rgba(2, 0, 0, 0.608);
+            margin: 0 auto;
+            width: 500px;
+            border: 1px solid #000000;
+            border-radius: 1em;
+            padding-inline-end: 20px;
+            align-items: center;
+            position: relative;
+            top: 150px;
+            left: 40px;
+            text-align: left;
+
+
+
+        }
+
+        @keyframes gradient {
+            15% {
+                background-position: 0% 0%;
+            }
+
+            50% {
+                background-position: 100% 100%;
+            }
+
+            100% {
+                background-position: 10% 0%;
+            }
+
+        }
+        
+    </style>
+</body>
+
+</html>
